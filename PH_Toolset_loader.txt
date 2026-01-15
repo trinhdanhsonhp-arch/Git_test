@@ -1,0 +1,8 @@
+require 'sketchup.rb'
+require 'extensions.rb'
+
+ext = SketchupExtension.new('PH Toolset', 'PH_Toolset/PH_Toolset_main')
+ext.description = 'PhuHung tools (Phuhungtool toolbar): PH_Flip + utilities'
+ext.version     = '1.0.0'
+ext.creator     = 'PhuHung'
+Sketchup.register_extension(ext, true)
