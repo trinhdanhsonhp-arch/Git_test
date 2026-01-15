@@ -30,5 +30,4 @@ module PH
     setup_ui
     puts "[Interpro] Ping ready"
   end
-#Hi Trinh
 end
